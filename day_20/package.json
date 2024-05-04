@@ -1,7 +1,6 @@
 {
   "name": "playwright_demo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "playwright test --headed"
@@ -10,5 +9,11 @@
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.42.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }

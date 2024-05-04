@@ -7,5 +7,12 @@ module.exports = defineConfig({
             use: {...devices['Desktop Chrome']}
         }
     ],
-    reporter:'html'
+    reporter:'html',
+    //retries: process.evn.CI ? 2 : 1,
+    use:{
+        actionTimeout: 5000,
+        trace: 'on-first-retry',
+        video:'on-first-retry',
+        screenshot: 'only-on-failure',
+    }
 })

@@ -11,7 +11,7 @@
     "@playwright/test": "^1.42.1"
   },
   "directories": {
-    "test": "test"
+    "test": "test/global"
   },
   "devDependencies": {},
   "keywords": [],
